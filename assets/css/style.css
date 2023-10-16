@@ -1149,6 +1149,23 @@ section {
   background: #0678e3;
 }
 
+/***********Resume button*********/
+.resume .section-title a {
+  background: #0563bb;
+  border: 0;
+  /* padding: 10px 35px; */
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-size : 50%;
+}
+
+.resume .section-title a:hover {
+  background: #0678e3;
+}
+
+
+/*********************/
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1226,4 +1243,8 @@ section {
 
 .tech_stack li {
   margin-top: 0px !important;
+}
+
+.left-align {
+  text-align: left;
 }
