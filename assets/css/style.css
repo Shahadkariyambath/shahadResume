@@ -795,6 +795,12 @@ section {
   margin-bottom: 20px;
 }
 
+#tech_stack h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
@@ -1215,7 +1221,7 @@ section {
 
 .tech_stack{
   list-style: disc !important;
-  padding-left: 25% !important;
+  /* padding-left: 25% !important; */
 }
 
 .tech_stack li {
